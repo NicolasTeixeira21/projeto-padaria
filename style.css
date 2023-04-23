@@ -65,3 +65,10 @@ section.texto > div.paragrafo {
     max-width: 600px;
     color: white;
 }
+
+section.texto > div.paragrafo > h2 {
+    color: brown;
+    font-size: 3.2em;
+    letter-spacing: .06em;
+    font-weight: bold;
+}
