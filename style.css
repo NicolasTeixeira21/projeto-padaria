@@ -72,3 +72,19 @@ section.texto > div.paragrafo > h2 {
     letter-spacing: .06em;
     font-weight: bold;
 }
+
+form {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    background-color: white;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    position: absolute;
+}
