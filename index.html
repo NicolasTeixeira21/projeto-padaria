@@ -24,9 +24,35 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, rerum. Omnis id possimus nemo nulla, asperiores nostrum deleniti laborum nihil quos ab nisi recusandae fugit a minima praesentium consectetur assumenda.</p>
             <a href="#">Get Started</a>
         </div>
+
+        <div class="login">
+            <h2>Member Login</h2>
+            <form action="login.php" method="post">
+                <div class="login-register">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Enter your email</label>
+                </div>
+
+                <div class="login-register">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Enter your password</label>
+                </div>
+
+                <div class="remember">
+                    <label>
+                        <input type="checkbox">Remember me</label>
+                        <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit">Login</button>
+                <div class="register-link">
+                    <p>Not a member? <a href="#">Sign Up Now</a></p>
+                </div>
+            </form>
+        </div>
     </section>
-    <form action="form.php" method="post">
-        <input type="email" name="emil" id="emil">
-    </form>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
